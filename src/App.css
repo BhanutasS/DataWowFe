@@ -1,0 +1,104 @@
+.app {
+  width: 600px;
+  background-color: #edeef2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-bar-max {
+  height: 10px;
+  background-color: black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.progress-bar{
+  height: 10px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  height: 5px;
+}
+.popup-menu {
+  position: absolute;
+  z-index: 100; /* Ensure it's above other content */
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 4px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-top: 100px;
+  margin-right: 35px;
+  color: black;
+}
+
+.popup-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-menu ul li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.popup-menu ul li:hover {
+  background-color: #f5f5f5;
+}
+
+.box {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  width: 450px;
+  display: flex;
+  position: relative;
+}
+
+.progress-box {
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: lightcoral;
+  border-radius: 15px;
+  width: 450px;
+  display: grid;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-list input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+}
