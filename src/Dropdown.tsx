@@ -1,4 +1,3 @@
-// CustomDropdown.tsx
 import React, { useState, useRef, useEffect, FC } from 'react';
 
 interface DropdownProps {
